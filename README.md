@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/header.svg" width="100%" alt="Dan Kamau Mwaura — STAR2023d" />
+<img src="header.svg" width="100%" alt="Dan Kamau Mwaura — STAR2023d" />
 # `root@cybercommand:~$ whoami`
 
 `CLASSIFICATION: PUBLIC` · `BASE OF OPERATIONS: KENYA 🇰🇪` · `TRAINING: SELF-TAUGHT` · `STATUS: ACTIVE DUTY`

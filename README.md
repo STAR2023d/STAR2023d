@@ -21,7 +21,11 @@ root@cybercommand:~$ cat /classified/dossier.txt
   MISSION    : Build systems that hold the line in the real world.
 ```
 
-> 🪖 **No CS degree. No university. Every skill here was earned on my own:** docs, trial and error, and real projects shipped to real users.
+>🪖 **I don't know what's broken in your system. I don't know who wrote it.**
+> But I can tell you this: I have no CS degree and no university behind me.
+> What I *do* have is a hard-earned arsenal of skills — forged through docs, trial and error, and real projects shipped to real users.
+> Skills that make me a nightmare for bugs like yours.
+> **I will track the bug down. I will corner it. And I will ship the fix.**
 
 ---
 

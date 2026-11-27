@@ -108,11 +108,12 @@ root@cybercommand:~$ cat /training/log.txt
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/>_HQ-PORTFOLIO-010A16?style=for-the-badge&logo=vercel&logoColor=00B4FF)](YOUR_VERCEL_URL)
-[![WhatsApp](https://img.shields.io/badge/>_RADIO-WHATSAPP-010A16?style=for-the-badge&logo=whatsapp&logoColor=00B4FF)](https://wa.me/254XXXXXXXXX)
-[![Email](https://img.shields.io/badge/>_DISPATCH-EMAIL-010A16?style=for-the-badge&logo=gmail&logoColor=00B4FF)](mailto:YOUR_EMAIL)
+[![Portfolio](https://shields.io)](https://dan-kamau-mwaura-portfolio.vercel.app/)
+[![WhatsApp](https://shields.io)](https://wa.me/254745514916)
+[![Email](https://shields.io)](mailto:mwauradankamau@gmail.com)
 
 <img src="assets/footer.svg" width="100%" alt="End of transmission — over and out" />
 
 </div>
+
 ---

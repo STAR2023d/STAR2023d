@@ -34,7 +34,7 @@ root@cybercommand:~$ cat /etc/orders.conf
 ```
 ---
 <div align="center">
-  <img src="assets/ops-panel.svg" width="100%" alt="Ops console: skills radar and training status" />
+  <img src="ops-panel.svg" width="100%" alt="Ops console: skills radar and training status" />
 </div>
 
 ---

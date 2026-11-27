@@ -86,18 +86,20 @@ root@cybercommand:~$ cat /training/log.txt
 ```
 
 ---
-
-## 📟 FIELD REPORT
-
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=STAR2023d&show_icons=true&hide_border=true&bg_color=000000&title_color=00FF41&text_color=00CC33&icon_color=00FF41" alt="Field report" />
+<img src="field-report.svg" width="100%" alt="Field report — live intel" />
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=STAR2023d&hide_border=true&background=000000&ring=00FF41&fire=00FF41&currStreakLabel=00FF41&sideLabels=00CC33&currStreakNum=00FF41&sideNums=00FF41&dates=008F11&stroke=003B00" alt="Days on duty" />
+<img src="https://github-readme-stats.vercel.app/api?username=STAR2023d&show_icons=true&include_all_commits=true&count_private=true&bg_color=010A16&title_color=00B4FF&text_color=4FC3F7&icon_color=00B4FF&border_color=0A6FA8&custom_title=OPERATOR%20STATS" height="170" alt="Operator stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=STAR2023d&layout=compact&langs_count=8&bg_color=010A16&title_color=00B4FF&text_color=4FC3F7&border_color=0A6FA8&custom_title=WEAPONS%20USAGE" height="170" alt="Languages" />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=STAR2023d&bg_color=000000&color=00FF41&line=00FF41&point=00CC33&area=true&area_color=003B00&hide_border=true" alt="Activity intel" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=STAR2023d&background=010A16&border=0A6FA8&ring=00B4FF&fire=00B4FF&currStreakLabel=00B4FF&sideLabels=4FC3F7&currStreakNum=CFF3FF&sideNums=CFF3FF&dates=0A6FA8&stroke=06243D" width="100%" alt="Days on duty" />
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=STAR2023d&bg_color=010A16&color=4FC3F7&line=00B4FF&point=CFF3FF&area=true&area_color=06243D&title_color=00B4FF&custom_title=ACTIVITY%20INTEL%20%E2%80%94%20LAST%2030%20DAYS&hide_border=false" width="100%" alt="Activity intel" />
 
 </div>
+
+---
 
 ---
 

@@ -83,9 +83,6 @@ root@cybercommand:~$ ls -la ~/operations
 root@cybercommand:~$ cat /training/log.txt
   INSTRUCTOR : None. Self-commissioned.
   METHOD     : Docs → build → break → fix → ship → repeat
-
-root@cybercommand:~$ ./deploy --training edge-ai-iot --modules esp32,tinyml,kicad
-  [██████░░░░░░░░░░░░░░] 30%  ...training in progress
 ```
 
 ---

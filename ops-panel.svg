@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" width="900" height="300" role="img" aria-label="Ops panel: skills radar and training status">
+  <style>
+    .tag { font: bold 11px 'Courier New', monospace; fill:#CFF3FF; }
+    .term { font: 14px 'Courier New', monospace; }
+    .lbl { font: bold 12px 'Courier New', monospace; fill:#00B4FF; letter-spacing:1px; }
+    .blip { opacity:.12; animation: ping 4s linear infinite; }
+    @keyframes ping { 0% {opacity:1} 70% {opacity:.15} 100% {opacity:.12} }
+    .cursor { animation: blink 1s steps(1) infinite; }
+    @keyframes blink { 50% { opacity:0 } }
+  </style>
+  <defs>
+    <pattern id="lines" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000" opacity=".35"/></pattern>
+    <radialGradient id="glow"><stop offset="0" stop-color="#00B4FF" stop-opacity=".18"/><stop offset="1" stop-color="#00B4FF" stop-opacity="0"/></radialGradient>
+    <clipPath id="frame"><rect width="900" height="300" rx="10"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="900" height="300" fill="#010A16"/>
+    <text class="lbl" x="20" y="28">&gt; TARGET ACQUISITION // ARSENAL SCAN</text>
+    <text class="lbl" x="880" y="28" text-anchor="end">OPS CONSOLE // STAR2023d</text>
+    <circle cx="160" cy="160" r="115" fill="url(#glow)" stroke="#00B4FF" stroke-width="2"/>
+    <g fill="none" stroke="#0A6FA8" stroke-width="1">
+      <circle cx="160" cy="160" r="77"/><circle cx="160" cy="160" r="38"/>
+      <line x1="45" y1="160" x2="275" y2="160"/><line x1="160" y1="45" x2="160" y2="275"/>
+    </g>
+    <g>
+      <path d="M160 160 L275 160 A115 115 0 0 0 254.2 94.0 Z" fill="#00B4FF" opacity=".22"/>
+      <line x1="160" y1="160" x2="275" y2="160" stroke="#CFF3FF" stroke-width="2"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 160 160" to="360 160 160" dur="4s" repeatCount="indefinite"/>
+    </g>
+    <g class="blip" style="animation-delay:0.22s"><circle cx="219.4" cy="181.6" r="4" fill="#CFF3FF"/><circle cx="219.4" cy="181.6" r="8" fill="none" stroke="#00B4FF"/><text x="227.4" y="175.6" text-anchor="start" class="tag">Flutter</text></g><g class="blip" style="animation-delay:0.72s"><circle cx="201.3" cy="248.6" r="4" fill="#CFF3FF"/><circle cx="201.3" cy="248.6" r="8" fill="none" stroke="#00B4FF"/><text x="209.3" y="242.6" text-anchor="start" class="tag">Dart</text></g><g class="blip" style="animation-delay:1.22s"><circle cx="142.3" cy="208.6" r="4" fill="#CFF3FF"/><circle cx="142.3" cy="208.6" r="8" fill="none" stroke="#00B4FF"/><text x="134.3" y="202.6" text-anchor="end" class="tag">React</text></g><g class="blip" style="animation-delay:1.78s"><circle cx="100.6" cy="181.6" r="4" fill="#CFF3FF"/><circle cx="100.6" cy="181.6" r="8" fill="none" stroke="#00B4FF"/><text x="92.6" y="175.6" text-anchor="end" class="tag">Serverpod</text></g><g class="blip" style="animation-delay:2.22s"><circle cx="95.2" cy="136.4" r="4" fill="#CFF3FF"/><circle cx="95.2" cy="136.4" r="8" fill="none" stroke="#00B4FF"/><text x="87.2" y="130.4" text-anchor="end" class="tag">Supabase</text></g><g class="blip" style="animation-delay:2.72s"><circle cx="117.2" cy="68.3" r="4" fill="#CFF3FF"/><circle cx="117.2" cy="68.3" r="8" fill="none" stroke="#00B4FF"/><text x="109.2" y="62.3" text-anchor="end" class="tag">PostgreSQL</text></g><g class="blip" style="animation-delay:3.22s"><circle cx="179.7" cy="106.0" r="4" fill="#CFF3FF"/><circle cx="179.7" cy="106.0" r="8" fill="none" stroke="#00B4FF"/><text x="187.7" y="100.0" text-anchor="start" class="tag">Python</text></g><g class="blip" style="animation-delay:3.72s"><circle cx="241.3" cy="122.1" r="4" fill="#CFF3FF"/><circle cx="241.3" cy="122.1" r="8" fill="none" stroke="#00B4FF"/><text x="249.3" y="116.1" text-anchor="start" class="tag">Linux</text></g>
+    <circle cx="160" cy="160" r="3" fill="#CFF3FF"/>
+    <line x1="305" y1="45" x2="305" y2="275" stroke="#0A6FA8"/>
+    <clipPath id="c0"><rect x="330" y="46" height="22" width="0"><animate attributeName="width" values="0;0;540;540;0" keyTimes="0;0.029;0.079;0.96;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+    <text x="330" y="62" class="term" fill="#4FC3F7" clip-path="url(#c0)">&gt; ./radar --scan arsenal</text><clipPath id="c1"><rect x="330" y="70" height="22" width="0"><animate attributeName="width" values="0;0;540;540;0" keyTimes="0;0.093;0.143;0.96;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+    <text x="330" y="86" class="term" fill="#00B4FF" clip-path="url(#c1)">[ OK ] Flutter · Dart ................ ARMED</text><clipPath id="c2"><rect x="330" y="94" height="22" width="0"><animate attributeName="width" values="0;0;540;540;0" keyTimes="0;0.157;0.207;0.96;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+    <text x="330" y="110" class="term" fill="#00B4FF" clip-path="url(#c2)">[ OK ] React · Vite · Tailwind ....... ARMED</text><clipPath id="c3"><rect x="330" y="118" height="22" width="0"><animate attributeName="width" values="0;0;540;540;0" keyTimes="0;0.221;0.271;0.96;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+    <text x="330" y="134" class="term" fill="#00B4FF" clip-path="url(#c3)">[ OK ] Serverpod · Supabase · SQL .... ONLINE</text><clipPath id="c4"><rect x="330" y="142" height="22" width="0"><animate attributeName="width" values="0;0;540;540;0" keyTimes="0;0.286;0.336;0.96;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+    <text x="330" y="158" class="term" fill="#00B4FF" clip-path="url(#c4)">[ OK ] Python · Linux · Git ......... ONLINE</text><clipPath id="c5"><rect x="330" y="166" height="22" width="0"><animate attributeName="width" values="0;0;540;540;0" keyTimes="0;0.35;0.4;0.96;1" dur="14s" repeatCount="indefinite"/></rect></clipPath>
+    <text x="330" y="182" class="term" fill="#4FC3F7" clip-path="url(#c5)">&gt; ./deploy --training edge-ai-iot</text>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.414;0.434;0.96;1" dur="14s" repeatCount="indefinite"/>
+      <text x="330" y="210" class="term" fill="#4FC3F7">EDGE AI &amp; IoT</text>
+      <rect x="460" y="196" width="370" height="16" fill="none" stroke="#00B4FF" rx="2"/>
+      <rect x="462" y="198" height="12" width="0" fill="#00B4FF"><animate attributeName="width" values="0;0;107.0;107.0;0" keyTimes="0;0.414;0.571;0.96;1" dur="14s" repeatCount="indefinite"/></rect>
+      <text x="840" y="210" class="term" fill="#CFF3FF">30%</text>
+    </g>
+    <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.6;0.61;0.96;1" dur="14s" repeatCount="indefinite"/>
+      <text x="330" y="242" class="term" fill="#CFF3FF" font-weight="bold">STATUS: MISSION READY<tspan class="cursor">_</tspan></text></g>
+    <rect width="900" height="300" fill="url(#lines)"/>
+    <rect x="1" y="1" width="898" height="298" rx="10" fill="none" stroke="#00B4FF" stroke-opacity=".6" stroke-width="2"/>
+  </g>
+</svg>

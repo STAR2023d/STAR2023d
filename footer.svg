@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 110" width="900" height="110" role="img" aria-label="End of transmission — over and out">
+  <style>
+    .lbl { font: bold 12px 'Courier New', monospace; fill:#4FC3F7; letter-spacing:1px; }
+    .big { font: bold 18px 'Courier New', monospace; fill:#CFF3FF; letter-spacing:3px; }
+    .bin { font: 11px 'Courier New', monospace; fill:#0A6FA8; letter-spacing:1px; }
+    .amp { transform-box: view-box; transform-origin: 0 58px; animation: decay 9s ease-in infinite; }
+    @keyframes decay { 0%,15% { transform: scaleY(1); } 65% { transform: scaleY(.04); } 90% { transform: scaleY(0); } 100% { transform: scaleY(1); } }
+    .roll { animation: roll 1.2s linear infinite; }
+    @keyframes roll { from { transform: translateX(0); } to { transform: translateX(-200px); } }
+    .bars rect { fill:#00B4FF; animation: drop 9s steps(1) infinite; }
+    @keyframes drop { 0%,20% { opacity:1; } 25%,95% { opacity:.12; } 100% { opacity:1; } }
+    .m1 { animation: m1 9s steps(1) infinite; }
+    .m2 { opacity:0; animation: m2 9s steps(1) infinite; }
+    @keyframes m1 { 0%,60% { opacity:1; } 61%,100% { opacity:0; } }
+    @keyframes m2 { 0%,60% { opacity:0; } 61%,97% { opacity:1; } 98%,100% { opacity:0; } }
+    .cursor { animation: blink 1s steps(1) infinite; }
+    .dot { animation: blink .8s steps(1) infinite; }
+    @keyframes blink { 50% { opacity:0 } }
+  </style>
+  <defs>
+    <pattern id="lines" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000" opacity=".35"/></pattern>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0 V20 M0 20 H20" stroke="#0A6FA8" stroke-opacity=".35" fill="none"/></pattern>
+    <clipPath id="frame"><rect width="900" height="110" rx="8"/></clipPath>
+    <clipPath id="scope"><rect x="250" y="20" width="400" height="76"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="900" height="110" fill="#010A16"/>
+    <g fill="none" stroke="#00B4FF" stroke-width="2"><path d="M8 20 V8 H20"/><path d="M880 8 H892 V20"/><path d="M8 90 V102 H20"/><path d="M880 102 H892 V90"/></g>
+    <text class="lbl" x="28" y="34">COMMS CHANNEL</text>
+    <circle class="dot" cx="34" cy="56" r="4" fill="#FF3B3B"/>
+    <text class="lbl" x="46" y="60">SIGNAL CLOSING</text>
+    <text class="bin" x="28" y="86">01010011 01010100</text>
+    <text class="bin" x="28" y="98">01000001 01010010</text>
+    <rect x="250" y="20" width="400" height="76" fill="url(#grid)" stroke="#0A6FA8"/>
+    <line x1="250" y1="58" x2="650" y2="58" stroke="#0A6FA8"/>
+    <g clip-path="url(#scope)"><g class="amp"><g class="roll"><path d="M250,58.0 L254,63.6 L258,68.6 L262,71.4 L266,70.9 L270,66.8 L274,60.0 L278,52.0 L282,45.0 L286,41.0 L290,41.2 L294,45.8 L298,53.5 L302,62.5 L306,70.2 L310,74.8 L314,75.0 L318,71.0 L322,64.0 L326,56.0 L330,49.2 L334,45.1 L338,44.6 L342,47.4 L346,52.4 L350,58.0 L354,62.8 L358,65.6 L362,66.1 L366,64.6 L370,61.9 L374,58.7 L378,56.1 L382,54.4 L386,53.8 L390,54.2 L394,55.4 L398,57.1 L402,58.9 L406,60.6 L410,61.8 L414,62.2 L418,61.6 L422,59.9 L426,57.3 L430,54.1 L434,51.4 L438,49.9 L442,50.4 L446,53.2 L450,58.0 L454,63.6 L458,68.6 L462,71.4 L466,70.9 L470,66.8 L474,60.0 L478,52.0 L482,45.0 L486,41.0 L490,41.2 L494,45.8 L498,53.5 L502,62.5 L506,70.2 L510,74.8 L514,75.0 L518,71.0 L522,64.0 L526,56.0 L530,49.2 L534,45.1 L538,44.6 L542,47.4 L546,52.4 L550,58.0 L554,62.8 L558,65.6 L562,66.1 L566,64.6 L570,61.9 L574,58.7 L578,56.1 L582,54.4 L586,53.8 L590,54.2 L594,55.4 L598,57.1 L602,58.9 L606,60.6 L610,61.8 L614,62.2 L618,61.6 L622,59.9 L626,57.3 L630,54.1 L634,51.4 L638,49.9 L642,50.4 L646,53.2 L650,58.0 L654,63.6 L658,68.6 L662,71.4 L666,70.9 L670,66.8 L674,60.0 L678,52.0 L682,45.0 L686,41.0 L690,41.2 L694,45.8 L698,53.5 L702,62.5 L706,70.2 L710,74.8 L714,75.0 L718,71.0 L722,64.0 L726,56.0 L730,49.2 L734,45.1 L738,44.6 L742,47.4 L746,52.4 L750,58.0 L754,62.8 L758,65.6 L762,66.1 L766,64.6 L770,61.9 L774,58.7 L778,56.1 L782,54.4 L786,53.8 L790,54.2 L794,55.4 L798,57.1 L802,58.9 L806,60.6 L810,61.8 L814,62.2 L818,61.6 L822,59.9 L826,57.3 L830,54.1 L834,51.4 L838,49.9 L842,50.4 L846,53.2 L850,58.0 L854,63.6 L858,68.6 L862,71.4 L866,70.9 L870,66.8 L874,60.0 L878,52.0 L882,45.0 L886,41.0 L890,41.2 L894,45.8 L898,53.5 L902,62.5 L906,70.2 L910,74.8 L914,75.0 L918,71.0 L922,64.0 L926,56.0 L930,49.2 L934,45.1 L938,44.6 L942,47.4 L946,52.4 L950,58.0 L954,62.8 L958,65.6 L962,66.1 L966,64.6 L970,61.9 L974,58.7 L978,56.1 L982,54.4 L986,53.8 L990,54.2 L994,55.4 L998,57.1 L1002,58.9 L1006,60.6 L1010,61.8 L1014,62.2 L1018,61.6 L1022,59.9 L1026,57.3 L1030,54.1 L1034,51.4 L1038,49.9 L1042,50.4 L1046,53.2 L1050,58.0" fill="none" stroke="#00B4FF" stroke-width="2"/></g></g></g>
+    <g text-anchor="middle">
+      <text class="big m1" x="450.0" y="16" style="font-size:12px">&gt;&gt; TRANSMISSION ENDING...</text>
+      <text class="big m2" x="450.0" y="16" style="font-size:12px">&gt;&gt; OVER AND OUT<tspan class="cursor">_</tspan></text>
+    </g>
+        <g class="bars"><rect x="770" y="58" width="9" height="12" style="animation-delay:1.0s"/><rect x="784" y="50" width="9" height="20" style="animation-delay:0.75s"/><rect x="798" y="42" width="9" height="28" style="animation-delay:0.5s"/><rect x="812" y="34" width="9" height="36" style="animation-delay:0.25s"/><rect x="826" y="26" width="9" height="44" style="animation-delay:0.0s"/></g>
+    <text class="lbl" x="802" y="94" text-anchor="middle">SIGNAL</text>
+    <rect width="900" height="110" fill="url(#lines)"/>
+    <rect x="1" y="1" width="898" height="108" rx="8" fill="none" stroke="#00B4FF" stroke-opacity=".6" stroke-width="2"/>
+  </g>
+</svg>

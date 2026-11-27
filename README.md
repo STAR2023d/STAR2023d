@@ -1,7 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=22&duration=2500&pause=600&color=00FF41&center=true&vCenter=true&width=650&lines=%3E+ESTABLISHING+SECURE+UPLINK...;%3E+CYBER+COMMAND+%E2%80%94+AUTHENTICATING...;%3E+OPERATOR%3A+DAN+KAMAU+MWAURA;%3E+CALLSIGN%3A+STAR2023d;%3E+CLEARANCE+GRANTED_" alt="Secure uplink" />
-
+<img src="assets/header.svg" width="100%" alt="Dan Kamau Mwaura — STAR2023d" />
 # `root@cybercommand:~$ whoami`
 
 `CLASSIFICATION: PUBLIC` · `BASE OF OPERATIONS: KENYA 🇰🇪` · `TRAINING: SELF-TAUGHT` · `STATUS: ACTIVE DUTY`

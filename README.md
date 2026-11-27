@@ -104,18 +104,15 @@ root@cybercommand:~$ cat /training/log.txt
 </div>
 
 ---
-
----
-
 ## 📡 COMMS CHANNELS
-[![Portfolio](https://img.shields.io/badge/>_HQ-PORTFOLIO-000000?style=for-the-badge&logo=vercel&logoColor=00FF41)](YOUR_VERCEL_URL)
-[![WhatsApp](https://img.shields.io/badge/>_RADIO-WHATSAPP-000000?style=for-the-badge&logo=whatsapp&logoColor=00FF41)](https://wa.me/254XXXXXXXXX)
-[![Email](https://img.shields.io/badge/>_DISPATCH-EMAIL-000000?style=for-the-badge&logo=gmail&logoColor=00FF41)](mailto:YOUR_EMAIL)
 
 <div align="center">
 
-```
-01010011 01010100 01000001 01010010  // END OF TRANSMISSION. OVER AND OUT_
-```
+[![Portfolio](https://img.shields.io/badge/>_HQ-PORTFOLIO-010A16?style=for-the-badge&logo=vercel&logoColor=00B4FF)](YOUR_VERCEL_URL)
+[![WhatsApp](https://img.shields.io/badge/>_RADIO-WHATSAPP-010A16?style=for-the-badge&logo=whatsapp&logoColor=00B4FF)](https://wa.me/254XXXXXXXXX)
+[![Email](https://img.shields.io/badge/>_DISPATCH-EMAIL-010A16?style=for-the-badge&logo=gmail&logoColor=00B4FF)](mailto:YOUR_EMAIL)
+
+<img src="assets/footer.svg" width="100%" alt="End of transmission — over and out" />
 
 </div>
+---

@@ -32,6 +32,10 @@ root@cybercommand:~$ cat /etc/orders.conf
   [ORDER_2] EXECUTE  : Ship clean, tested, working code.
   [ORDER_3] HOLD     : Maintain it. No system left behind.
 ```
+---
+<div align="center">
+  <img src="assets/ops-panel.svg" width="100%" alt="Ops console: skills radar and training status" />
+</div>
 
 ---
 
